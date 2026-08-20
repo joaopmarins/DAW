@@ -1,0 +1,89 @@
+			body {
+				 font-family: Calibri, sans-serif;
+				 margin: 0px;
+				 background-color: #FFE8E1;
+			}
+			p {
+				color: black; 
+				font-size: 30px; 
+	    		text-align: justify;
+	    		text-indent: 50px;
+	    		letter-spacing: 3px;
+			}
+			h1 {
+				font-size: 80px;
+	    		font-family: arial;
+	    		text-shadow: 6px 6px 2px lightpink, -3px -3px 4px rgb(235, 193, 235);
+	    		word-spacing: 15px;
+
+			}
+			hr {
+				border: none;
+				border-top: 1px dashed #fb6f92;
+				border-color: #fb6f92;
+			}
+			.formatacao {
+				text-align: center;
+				line-height: 30px;
+			}
+			#format1 {
+				font-weight: bold;
+				font-style: italic;
+				text-decoration: overline underline;
+				text-transform: uppercase; /*uppercase, lowercase, capitalize*/
+			}
+			#pot {
+				vertical-align: super;
+				font-size: 20px;
+			}
+			#log {
+				vertical-align: sub;
+				font-size: 20px;
+			}
+			#menu {
+				background-color: #ffb3c6;
+				color: white;
+				padding: 20px;
+				text-align: center;
+				word-spacing: 100px;
+				letter-spacing: 3px;
+				font-size: 25px;
+				box-shadow: 10px 10px 10px #ffc2d1;  
+			}
+			#conteudo {
+				width: 80%;
+				margin-top: 0px;
+				margin-bottom: 50px;
+				margin-left: auto;
+				margin-right: auto;
+				border: 1px solid pink;
+				padding: 30px;
+				border-radius: 20px;
+				border-top-left-radius: 0px;
+				box-shadow: 10px 10px 10px 1px lightpink;
+				background-image: url(logo-unicamp-claro-peq.png);
+			}
+			#rodape {
+				text-align: center;
+				font-size: 30px;
+				padding-top: 30px;
+  				font-family: "League Gothic", sans-serif;
+  				font-optical-sizing: auto;
+		  		font-weight: 400;
+		  		font-style: normal;
+		    	width: 100;
+			}
+			a:link{
+				color: white;
+				text-decoration: none;
+			}
+			a:hover{
+				color: lightpink;
+				text-decoration: underline;
+				border: 3px solid;
+			}
+			#conteudo:hover{
+				border-width: 3px;
+			}
+
+
