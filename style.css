@@ -2,6 +2,9 @@
 				 font-family: Calibri, sans-serif;
 				 margin: 0px;
 				 background-color: #FFE8E1;
+				 background-image: url(logo-unicamp-claro-peq.png);
+				 background-repeat: no-repeat;
+				 background-size: 100%;
 			}
 			p {
 				color: black; 
@@ -29,8 +32,7 @@
 			#format1 {
 				font-weight: bold;
 				font-style: italic;
-				text-decoration: overline underline;
-				text-transform: uppercase; /*uppercase, lowercase, capitalize*/
+				opacity: 1; /*uppercase, lowercase, capitalize*/
 			}
 			#pot {
 				vertical-align: super;
@@ -59,9 +61,12 @@
 				border: 1px solid pink;
 				padding: 30px;
 				border-radius: 20px;
-				border-top-left-radius: 0px;
+				border-top-left-radius: 20px;
 				box-shadow: 10px 10px 10px 1px lightpink;
-				background-image: url(logo-unicamp-claro-peq.png);
+				background-position: center center;
+				background-repeat: no-repeat;
+				background-size: 100% 100%;
+				opacity: 0.8;
 			}
 			#rodape {
 				text-align: center;
