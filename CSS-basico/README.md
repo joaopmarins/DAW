@@ -1,0 +1,1 @@
+Css básico, como cores, centralização de div, sombras, padding, margin, vertical align, fonte, hover e background
