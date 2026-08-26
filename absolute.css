@@ -1,0 +1,24 @@
+
+
+.pai{
+    position: relative;
+    background-color: gray;
+    line-height: 30px;
+    width: 300px;
+    height: 200px;
+    border: 2px solid #333;
+    padding: 10px;
+    border-radius: 15px;
+    top: 200px;
+}
+
+.filha{
+    position: absolute;
+    background-color: tomato;
+    height: 80px;
+    width: 80px;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+    top: 100px;
+}
