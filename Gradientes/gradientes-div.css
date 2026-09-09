@@ -1,0 +1,44 @@
+div {
+    width: 400px;
+    height: 200px;
+
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa-linear {
+    background: linear-gradient(to right, red, yellow);
+}
+
+.caixa-radial{
+    background: radial-gradient(circle, red, yellow);
+}
+
+button {
+    width: 400px;
+    height: 100px;
+
+    padding: 12px 30px;
+    border-radius: 60px;
+    color: white;
+    text-shadow: 1px 1px 4px lightgray;
+    font-size: 30px;
+    font-weight: bold;
+    box-shadow: 0px 4px 10px blue;
+
+    cursor: pointer;
+
+    background: linear-gradient(to right, lightblue, blue, purple);
+
+
+}
+
+button:hover {
+        background: linear-gradient(to left, lightblue, blue, purple)
+
+}
