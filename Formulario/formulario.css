@@ -1,18 +1,71 @@
 body{
+    height: 100vh;
     font-family: arial;
-    background-color: rgb(228, 222, 222);
+    background: linear-gradient(45deg, #03045e,  #0077b6, #00b4d8);
 }
 
 h1{
     text-align: center;
-}g
+    color: #caf0f8;
+    text-shadow: 1px 1px 7px rgb(121, 118, 118);
+}
 
 form{
-    background-color: white;
+    background: linear-gradient(45deg, #90e0ef, #caf0f8);
     width: 400px;
     margin: 0 auto;
     border: 1px solid black;
     padding: 20px;
-    box-shadow: 0 0 10px gray;
     border-radius: 8px;
 }
+
+label{
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+textarea{
+    height: 100px;
+    resize: vertical;
+}
+
+input[type="radio"]{
+        margin-right: 5px;
+}
+
+input[type="range"]{
+    width: 90%;
+    margin-top: 5px;
+}
+
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin: 0 auto;
+    background: rgb(228, 222, 222);
+    border: none;
+    width: 75%;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+button:hover{
+    box-shadow: 0px 0px 4px lightgray;
+}
+
