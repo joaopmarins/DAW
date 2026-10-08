@@ -1,0 +1,43 @@
+div{
+    border: 3px solid black;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    animation-name: animaborda, bounceInDown;
+    animation-duration: 1s, 0.8s;
+    animation-iteration-count: infinite, 1;
+}
+
+@keyframes animaborda{
+    0%{
+        border-top-color: lightgray;
+        border-right-color: black ;
+        border-bottom-color: black;
+        border-left-color: black;
+    }
+    25%{
+        border-top-color: black;
+        border-right-color: lightgray ;
+        border-bottom-color: black;
+        border-left-color: black;
+    }
+    50%{
+        border-top-color: black;
+        border-right-color: black ;
+        border-bottom-color: lightgray;
+        border-left-color: black;
+    }
+    75%{
+        border-top-color: black;
+        border-right-color: black ;
+        border-bottom-color: black;
+        border-left-color: lightgray;
+    }
+    100%{
+        border-top-color: lightgray;
+        border-right-color: black ;
+        border-bottom-color: black;
+        border-left-color: black;
+    }
+}
+
