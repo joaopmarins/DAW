@@ -1,0 +1,29 @@
+h2{
+    text-align: center;
+}
+
+.quadro{
+    border: 1px solid black;
+    
+    display: flex;
+    flex-direction: row; /*column*/
+    gap: 10px;
+    flex-wrap:wrap;
+
+    justify-content: center;
+    /*flex-start (começa no inicio da div)*/
+    /*flex-end (começa no fim da div)*/
+    /*space-between (ele faz ocupar sempre a linha inteira, calculando tudo)*/
+    /*space-evenly (igual o between, mas ele faz espaço antes e depois ao inves de so dps)*/
+}
+
+.quadro img{
+    width: 200px;
+    height: auto;
+    opacity: 0.85;
+}
+
+.quadro img:hover{
+    border: 1px solid gray;
+    opacity: 1;
+}
