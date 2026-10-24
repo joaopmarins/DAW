@@ -75,13 +75,19 @@ tr{
     width: 33%;
 }
 
-a {
+nav a {
+    display: inline-block;
     color: rgb(160, 1, 1);
+    margin: 0 13px;
+    border: 1px solid red;
+    padding: 5px 20px;
+    border-radius: 9px;
+    text-decoration: none;
+    background-color: rgb(40, 0, 0);
 }
 
-a:hover {
-    font-size: 30px;
-    text-shadow: 2px 2px 5px rgb(99, 95, 95);
+nav a:hover {
+    animation: hover-nav 0.3s forwards;
 }
 
 footer {
@@ -94,8 +100,32 @@ ul {
     list-style-type: disc;
 }
 
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    margin: 0 auto;
+    
+}
+
+
 @view-transition {
     navigation: auto
+}
+
+@keyframes hover-nav{
+    from{
+        transform: scale(1.0);
+        text-shadow: none;
+        background-color: rgb(40, 0, 0);
+    }
+    to{
+        transform: scale(1.4);
+        text-shadow: 2px 2px 5px rgb(99, 95, 95);
+        background: linear-gradient(45deg, rgb(58, 1, 1), rgb(145, 0, 0));
+        color: white;
+    }
+    
 }
 
 @keyframes saindo {
@@ -124,7 +154,7 @@ ul {
 
 @keyframes animacao-input {
     from {
-        transform: scale(1)
+        transform: scale(1);
     }
     to {
         transform: scale(1.03);

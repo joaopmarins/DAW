@@ -15,9 +15,9 @@ div{
 
 div:hover{
     /*transform: translate(15px, 10px);*/
-    /*transform: scale(1.5, 1.5);*/
+    /*transform: skew(15deg, 1deg) translate(15px, 15px);*/
     /*transform: rotate(30deg);*/
-    transform: skew(15deg, 1deg) translate(15px, 15px);
+    transform: scale(1.5, 1.5);
 }
 
 table {
