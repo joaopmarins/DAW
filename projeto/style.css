@@ -1,7 +1,7 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    height: 100vh;
+    
     color:rgb(160, 1, 1)
 }
 
@@ -18,14 +18,15 @@ body {
 }
 
 form {
+    margin: 10px auto;
     padding: 10px;
-    margin: 10px;
     border: 2px solid rgb(160, 1, 1);
+    min-height: 300px;
     border-radius: 10px;
-    height: 300px;
     box-shadow: 5px 5px 10px rgb(160, 1, 1);
     background: linear-gradient(45deg, rgb(58, 1, 1), rgb(145, 0, 0), rgb(231, 1, 1));
     color: white;
+    width: 40%;
 }
 
 input {
@@ -92,10 +93,11 @@ nav a:hover {
 
 footer {
     position: sticky;
+    bottom: 0;
 }
 
 ul {
-    list-style-image: url("setaa.png");
+    list-style-image: url("seta16.png");
     list-style-position: inside;
     list-style-type: disc;
 }
@@ -108,9 +110,61 @@ nav{
     
 }
 
+select option{
+    background-color: rgb(40, 0, 0);
+    color: white;
+}
+
+textarea {
+    border: none;
+    background-color: rgb(107, 0, 0);
+    border-radius: 10px;
+    width: 30%;
+
+}
+
+button{
+    border-radius: 6px;
+    padding: 6px;
+    background-color: rgb(104, 5, 5);
+    border: none;
+    width: 10%;
+
+}
+
+textarea:focus{
+    outline: none;
+    animation: hover-textarea 0.3s;
+    transform: scale(1.05);   
+}
+
+button:hover{
+    animation: hover-button 0.5s;
+    transform: scale(1.25);
+    color: white;
+    border: solid 1px rgb(104, 1, 1);
+}
 
 @view-transition {
     navigation: auto
+}
+
+@keyframes hover-button{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.25);
+    }
+}
+
+@keyframes hover-textarea {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.05);
+    }
 }
 
 @keyframes hover-nav{
