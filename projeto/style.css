@@ -2,13 +2,14 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     
-    color:rgb(160, 1, 1)
+    color:rgb(160, 1, 1);
 }
 
-h1, h2 {
+h1, h2, a {
     text-decoration: underline;
     font-weight: bold;
     text-shadow: 2px 2px 5px rgb(99, 95, 95);
+    color: red;
 }
 
 body {
@@ -72,10 +73,6 @@ th {
     width: 40%;
 }
 
-tr{
-    width: 33%;
-}
-
 nav a {
     display: inline-block;
     color: rgb(160, 1, 1);
@@ -88,7 +85,7 @@ nav a {
 }
 
 nav a:hover {
-    animation: hover-nav 0.3s forwards;
+    animation: hover-nav 03s forwards;
 }
 
 footer {
@@ -125,10 +122,10 @@ textarea {
 
 button{
     border-radius: 6px;
-    padding: 6px;
+    padding: 12px 20px;
     background-color: rgb(104, 5, 5);
     border: none;
-    width: 10%;
+    width: auto;
 
 }
 
@@ -143,6 +140,12 @@ button:hover{
     transform: scale(1.25);
     color: white;
     border: solid 1px rgb(104, 1, 1);
+}
+
+.quadro-imagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 @view-transition {
@@ -215,8 +218,3 @@ button:hover{
     }
 }
 
-.quadro-imagens {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-}
