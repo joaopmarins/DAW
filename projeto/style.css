@@ -18,6 +18,8 @@ body {
     background-color: black;
 }
 
+
+
 form {
     margin: 10px auto;
     padding: 10px;
@@ -85,7 +87,7 @@ nav a {
 }
 
 nav a:hover {
-    animation: hover-nav 03s forwards;
+    animation: hover-nav 0.3s forwards;
 }
 
 footer {
@@ -146,7 +148,36 @@ button:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    border: 2px solid rgb(160, 1, 1);
+    border-radius: 10px;
+    background-color: rgb(20, 0, 0);
 }
+
+#tabela {
+    width: 30%;
+    margin: 20px auto;
+    padding: 15px;
+    border: 2px solid rgb(160, 1, 1);
+    border-radius: 10px;
+    background-color: rgb(20, 0, 0);
+}
+
+.quadro-imagens img{
+    max-width: 100%;
+    border: 3px solid rgb(160,1,1);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(160, 1, 1);
+    margin: 10px;
+}
+
+.quadro-imagens img:hover{
+    animation: hover-textarea 0.3s;
+    transform: scale(1.05);
+}
+
 
 @view-transition {
     navigation: auto
