@@ -76,7 +76,9 @@ th {
 }
 
 nav a {
-    display: inline-block;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     color: rgb(160, 1, 1);
     margin: 0 13px;
     border: 1px solid red;
